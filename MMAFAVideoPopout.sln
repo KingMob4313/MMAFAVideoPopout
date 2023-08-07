@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1800
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "extension", "extension", "{5E1D5364-98F0-4590-997D-00463768061E}"
+	ProjectSection(SolutionItems) = preProject
+		extension\background.js = extension\background.js
+		extension\manifest.json = extension\manifest.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_locales", "_locales", "{A01A6568-9C7F-4962-9EE5-D9F504A8D1C0}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A01A6568-9C7F-4962-9EE5-D9F504A8D1C0} = {5E1D5364-98F0-4590-997D-00463768061E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECD1ADD5-0262-4E43-B21E-D7EA69B3E7CA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "_MMAFA_VIDEOPOPOUT",
+  "description": "_Immediately pops open a new tab with the canonical",
+  "version": "1.0",
+  "default_locale": "en",
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "56.0a1"
+    }
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
