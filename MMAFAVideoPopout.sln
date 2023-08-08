@@ -11,12 +11,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "extension", "extension", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_locales", "_locales", "{A01A6568-9C7F-4962-9EE5-D9F504A8D1C0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "icons", "icons", "{27333E6A-2768-4A62-99E4-B050E538E2FA}"
+	ProjectSection(SolutionItems) = preProject
+		extension\icons\beasts-32-light.png = extension\icons\beasts-32-light.png
+		extension\icons\beasts-32.png = extension\icons\beasts-32.png
+		extension\icons\beasts-48.png = extension\icons\beasts-48.png
+		extension\icons\off.svg = extension\icons\off.svg
+		extension\icons\on.svg = extension\icons\on.svg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A01A6568-9C7F-4962-9EE5-D9F504A8D1C0} = {5E1D5364-98F0-4590-997D-00463768061E}
+		{27333E6A-2768-4A62-99E4-B050E538E2FA} = {5E1D5364-98F0-4590-997D-00463768061E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECD1ADD5-0262-4E43-B21E-D7EA69B3E7CA}
